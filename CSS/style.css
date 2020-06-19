@@ -7,7 +7,7 @@ nav{
 }
 
 header{
-    background-image: url(../images/AppleLogo.png);
+    background-image: url(../images/hero-image.jpg);
     background-position: 5px -744px;
     background-repeat: no-repeat;
     width: 1450px;
@@ -15,12 +15,31 @@ header{
     margin-right: auto;
 }
 
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
 .topHeader{
     border: 1px solid white;
     height: 553px;
 
 }
-.addRow::after {
+.productRow::after {
     content: "";
     clear: both;
     display: table;
@@ -36,4 +55,53 @@ nav ul{
 
 .appleLogoInNavBar{
 
+}
+
+
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 1480px;
+    padding: 1em 0 2.6em;
+    transform: scale(0.8);
+}
+
+
+.footerleft {
+    width: 43%;
+    padding-top: 1.5em;
+    text-align: left;
+    float: left;
+}
+
+
+.footerright {
+    float: right;
+    width: 57%;
+    padding-top: 1.5em;
+    text-align: right;
+}
+
+.footerright ul {
+    display: inline;
+    margin: 0;
+}
+
+.footerright ul li {
+    display: inline-block;
+    float: none;
+    margin-left: 0.6em;
+    padding-left: 0.6em;
+    border-left: 1px solid #ccc;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #08c;
 }
