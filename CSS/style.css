@@ -37,20 +37,72 @@ ul {
    
 }
 
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.headerText{
+   
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
+}
+
 .appleLogoInNavBar img{
     height:25px;
     width: 25px;
 }
 
+.headerText a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
 
 nav li {
     width: 102px;
     height: 36px;
-    background: #67b11c;
-    background: linear-gradient(#72c41f, #5c9e19);    display: flex;
+  
+    background: linear-gradient(#9e9d9d, #615e5e, #8d8c8c);
+    
+    display: flex;
+
     align-items: center;
     justify-content: center;
+    
 }
+
 
 .topHeader {
     border: 1px solid white;
