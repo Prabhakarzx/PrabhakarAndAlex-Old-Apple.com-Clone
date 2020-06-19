@@ -37,7 +37,6 @@ nav ul {
   left: 200px;
 }
 
-<<<<<<< HEAD
 
 h1 {
     display: block;
@@ -108,7 +107,6 @@ nav li {
 .topHeader {
     border: 1px solid white;
     height: 553px;
-=======
 .appleLogoInNavBar img {
   height: 25px;
   width: 25px;
@@ -131,7 +129,6 @@ nav li a {
   text-decoration: none;
   text-shadow: 0px -1px black;
 }
->>>>>>> 23018f6ac0afe0e4791f7d3d6ff1685c26cb1ca2
 
 .topHeader {
   border: 1px solid white;
