@@ -1,149 +1,159 @@
-div{
-    display: block;
+div {
+  display: block;
 }
 
 body {
-    margin:0;
+  margin: 0;
 }
 
-nav{
-    display: block;
+nav {
+  display: block;
 }
 
-header{
-    background-image: url(../images/hero-image.jpg);
-    background-position: 5px -744px;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 570px;
-    margin-left: auto;
-    margin-right: auto;
+header {
+  background-image: url(../images/hero-image.jpg);
+  background-position: 5px -744px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 570px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-ul {
-    display: flex;
-    padding-inline-start: 40px;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: fit-content;
-    border-radius: 4px;
-    position: absolute;
-    box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
-    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    top:110px;
-    left: 200px;
-   
+nav ul {
+  display: flex;
+  padding-inline-start: 40px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+  border-radius: 4px;
+  border: 1px solid rgb(87, 86, 86);
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
+    Verdana, sans-serif;
+  top: 110px;
+  left: 200px;
 }
 
-.appleLogoInNavBar img{
-    height:25px;
-    width: 25px;
+.appleLogoInNavBar img {
+  height: 25px;
+  width: 25px;
 }
-
 
 nav li {
-    width: 102px;
-    height: 36px;
-    background: #67b11c;
-    background: linear-gradient(#72c41f, #5c9e19);    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 102px;
+  height: 36px;
+  background: linear-gradient(#9e9d9d, #615e5e, #8d8c8c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #615e5e;
+  cursor: pointer;
+}
+
+nav li a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  text-shadow: 0px -1px black;
 }
 
 .topHeader {
-    border: 1px solid white;
-    height: 553px;
-
+  border: 1px solid white;
+  height: 553px;
 }
 .productRow::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
-
-.lowerContainer{
-    display: flex;
-    position: relative;
-    width: 100%;
+.lowerContainer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 1445px;
 }
 
-.lowerImg1{
-        margin-left: 1px;
-    width: 25%;
-    height: 200px;
-    display: block;
-    cursor: pointer;
-    background-image: url(../images/mobile-1.jpg);
+.lowerImg1 {
+  margin-left: 1px;
+  width: 25%;
+  height: 200px;
+  display: block;
+  cursor: pointer;
+  background-image: url(../images/mobile-1.jpg);
 }
 
-.lowerImg2{
-        margin-left: 1px;
-    width: 25%;
-    height: 200px;
-    display: block;
-    cursor: pointer;
-    background-image: url(../images/mobile-2.jpg);
+.lowerImg2 {
+  margin-left: 1px;
+  width: 25%;
+  height: 200px;
+  display: block;
+  cursor: pointer;
+  background-image: url(../images/mobile-2.jpg);
 }
 
-.lowerImg3{
-        margin-left: 1px;
-    width: 25%;
-    height: 200px;
-    display: block;
-    cursor: pointer;
-    background-image: url(../images/mobile-3.jpg);
+.lowerImg3 {
+  margin-left: 1px;
+  width: 25%;
+  height: 200px;
+  display: block;
+  cursor: pointer;
+  background-image: url(../images/mobile-3.jpg);
 }
 
-.lowerImg4{
-        margin-left: 1px;
-    width: 25%;
-    height: 200px;
-    display: block;
-    cursor: pointer;
-    background-image: url(../images/mobile-4.jpg);
+.lowerImg4 {
+  margin-left: 1px;
+  width: 25%;
+  height: 200px;
+  display: block;
+  cursor: pointer;
+  background-image: url(../images/mobile-4.jpg);
 }
 footer {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    width: 100%;
-    padding: 1em 0 2.6em;
-    transform: scale(0.8);
-}
-
-
-.footerleft {
-    width: 43%;
-    padding-top: 1.5em;
-    text-align: left;
-    float: left;
-}
-
-.footerright {
-    float: right;
-    width: 57%;
-    padding-top: 1.5em;
-    text-align: right;
-}
-
-.footerright ul {
-    display: inline;
-    margin: 0;
-}
-
-.footerright ul li {
-    display: inline-block;
-    float: none;
-    margin-left: 0.6em;
-    padding-left: 0.6em;
-    border-left: 1px solid #ccc;
-    text-align: center;
+  display: flex;
+  align-items: baseline;
+  margin: 0 auto;
+  width: 100%;
+  transform: scale(0.8);
+  justify-content: space-evenly;
+  font-size: 13px;
+  padding-top: 20px;
+  color: #6e6e6e
 }
 
 footer a {
-    text-decoration: none;
-    color: #08c;
+  text-decoration: none;
+  color: #08c;
 }
+
+.footerright ul {
+  display: flex;
+  margin: 0;
+}
+
+.footerright ul li {
+  display: inline-block;
+  float: none;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: 1px solid #ccc;
+  text-align: center;
+}
+
+.footerright img {
+  width: 16px;
+  height: 16px;
+}
+
+.footerleft div:nth-child(2){
+    margin-top:20px;
+}
+
+.footerright ul li:nth-child(1) {
+    border-left: 1px solid #red;
+    border-left: none;
+}
+  
