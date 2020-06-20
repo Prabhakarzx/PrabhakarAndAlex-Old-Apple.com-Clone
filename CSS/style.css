@@ -22,7 +22,6 @@ header {
 
 nav ul {
   display: flex;
-  padding-inline-start: 40px;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -37,103 +36,79 @@ nav ul {
   left: 200px;
 }
 
-
 h1 {
-    display: block;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 50px;
+  display: block;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
 }
 
-
 h2 {
-    display: block;
-    font-size: 30px;
-    font-family: 'Open Sans', sans-serif;
-    
+  display: block;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h5 {
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    justify-content: center;
-    font-size: 20px;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
 }
 
-.headerText{
-   display: flex;
-   flex-direction: column;
-   top: 150px;
-   left: 330px;
-   position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    align-items: center;
-    justify-content: center;
+.headerText {
+  display: flex;
+  flex-direction: column;
+  top: 150px;
+  left: 265px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .searchInput {
-    width: 100px;
-    height: 19px;
-    padding: 5px 5px 5px 5px;
-    background: url(../images/search-icon.svg), #707070;
-    background-repeat: no-repeat, no-repeat;
-    background-position: 2px 2px;
-    border-radius: 12px;
+  width: 100px;
+  height: 20px;
+  padding: 5px 5px 5px 5px;
+  background: url(../images/search-icon.svg), #707070;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 2px 2px;
+  border-radius: 12px;
 }
 
 input:focus {
-    
-    background: url(../images/search-icon.svg), white;
-    background-repeat: no-repeat, no-repeat;
-    background-position: 2px 2px;
-  }
 
-.appleLogoInNavBar img{
-    height:25px;
-    width: 25px;
+  background: url(../images/search-icon.svg), white;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 2px 2px;
 }
 
-.headerText a {
-    color: white;
-    text-decoration: none;
-    font-weight: 100;
-}
-
-nav li {
-    width: 102px;
-    height: 36px;
-  
-    background: linear-gradient(#9e9d9d, #615e5e, #8d8c8c);
-    
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.navBar li:hover {
-    background:
-      linear-gradient(
-        rgb(97, 96, 96),
-        rgb(51, 50, 50),
-        rgb(49, 49, 49)
-      );
-  }
-
-.topHeader {
-    border: 1px solid white;
-    height: 553px;
-}
 .appleLogoInNavBar img {
   height: 25px;
   width: 25px;
 }
 
-nav li {
+.headerText a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.topHeader {
+  border: 1px solid white;
+  height: 553px;
+}
+
+.appleLogoInNavBar img {
+  height: 25px;
+  width: 25px;
+}
+
+nav li{
   width: 102px;
   height: 36px;
   background: linear-gradient(#9e9d9d, #615e5e, #8d8c8c);
@@ -151,10 +126,19 @@ nav li a {
   text-shadow: 0px -1px black;
 }
 
+.searchLi{
+  background: linear-gradient(#9e9d9d, #615e5e, #8d8c8c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #615e5e;
+}
+
 .topHeader {
   border: 1px solid white;
   height: 553px;
 }
+
 .productRow::after {
   content: "";
   clear: both;
@@ -205,6 +189,7 @@ nav li a {
   cursor: pointer;
   background-image: url(../images/mobile-4.jpg);
 }
+
 footer {
   display: flex;
   align-items: baseline;
@@ -241,12 +226,21 @@ footer a {
   height: 16px;
 }
 
-.footerleft div:nth-child(2){
-    margin-top:20px;
+.footerleft div:nth-child(2) {
+  margin-top: 20px;
 }
 
 .footerright ul li:nth-child(1) {
-   
-    border-left: none;
+  border-left: none;
 }
-  
+
+.navBar li:hover {
+  background:
+    linear-gradient(rgb(97, 96, 96),
+      rgb(51, 50, 50),
+      rgb(49, 49, 49));
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
