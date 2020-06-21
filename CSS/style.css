@@ -31,26 +31,27 @@ nav ul {
   position: absolute;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
   font:
-        12px/18px "Lucida Grande",
-        "Lucida Sans Unicode",
-        Helvetica,
-        Arial,
-        Verdana,
-        sans-serif;
+    12px/18px "Lucida Grande",
+    "Lucida Sans Unicode",
+    Helvetica,
+    Arial,
+    Verdana,
+    sans-serif;
   top: 110px;
   left: 200px;
 }
 
-h1, h2, h5{
+h1,
+h2,
+h5 {
   font:
-  12px/18px "Lucida Grande",
-  "Lucida Sans Unicode",
-  Helvetica,
-  Arial,
-  Verdana,
-  sans-serif;
+    12px/18px "Lucida Grande",
+    "Lucida Sans Unicode",
+    Helvetica,
+    Arial,
+    Verdana,
+    sans-serif;
   justify-content: center;
-
 }
 
 h1 {
@@ -173,7 +174,7 @@ nav li {
   border-width: 10px;
 }
 
-.loverImage{
+.loverImage {
   margin-left: 1px;
   padding: 5px;
   width: 312.7px;
@@ -223,10 +224,9 @@ nav li {
 
 .navBar li:not(.searchLi):hover {
   background:
-        linear-gradient(rgb(97, 96, 96),
-         rgb(51, 50, 50),
-         rgb(49, 49, 49)
-        );
+    linear-gradient(rgb(97, 96, 96),
+      rgb(51, 50, 50),
+      rgb(49, 49, 49));
 }
 
 .footerright ul li:nth-child(1) {
