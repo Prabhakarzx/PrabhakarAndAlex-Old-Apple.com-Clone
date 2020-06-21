@@ -228,10 +228,11 @@ nav li {
 
 .navBar li:not(.searchLi):hover {
   background:
-    linear-gradient(rgb(97, 96, 96),
-     rgb(51, 50, 50),
-     rgb(49, 49, 49)
-     );
+    linear-gradient(
+    rgb(97, 96, 96),
+    rgb(51, 50, 50),
+    rgb(49, 49, 49)
+  );
 }
 
 footer a:hover {
