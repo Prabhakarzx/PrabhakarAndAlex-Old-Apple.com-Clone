@@ -127,7 +127,7 @@ nav li a {
   color: white;
   font-size: 16px;
   text-decoration: none;
-  text-shadow: 0px -1px black;
+  text-shadow: 0 -1px black;
 }
 
 .headerText a {
@@ -222,15 +222,16 @@ nav li {
   margin-top: 20px;
 }
 
+.footerright ul li:nth-child(1) {
+  border-left: none;
+}
+
 .navBar li:not(.searchLi):hover {
   background:
     linear-gradient(rgb(97, 96, 96),
-      rgb(51, 50, 50),
-      rgb(49, 49, 49));
-}
-
-.footerright ul li:nth-child(1) {
-  border-left: none;
+     rgb(51, 50, 50),
+     rgb(49, 49, 49)
+     );
 }
 
 footer a:hover {
