@@ -10,14 +10,19 @@ nav {
   display: block;
 }
 
+span{
+  display: block;
+}
+
 header {
   background-image: url(../images/hero-image.jpg);
   background-position: 5px -744px;
   background-repeat: no-repeat;
-  width: 1294px;
+  width: 100%;
   height: 570px;
   margin-left: 0;
   margin-right: 0;
+  background-size: cover;
 }
 
 nav ul {
@@ -172,15 +177,18 @@ nav li {
   max-width: 1445px;
   border: #fff;
   border-width: 10px;
+  background-size: cover;
 }
 
-.loverImage {
-  margin-left: 1px;
+.lowerImage {
+  margin-left: 1.5px;
   padding: 5px;
-  width: 312.7px;
+  width: 364px;
+  background-size: cover;
   height: 190px;
   display: block;
   cursor: pointer;
+  z-index: 1;
 }
 
 .lowerImg1 {
