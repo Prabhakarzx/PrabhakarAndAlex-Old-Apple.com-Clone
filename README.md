@@ -1,7 +1,7 @@
 # PrabhakarAndAlex-Old-Apple.com-Clone
 This project is focused on learning gradient and background image positioning using CSS. In this project we're required to create clone of Old Apple.com's homepage.
 
-![screenshot](images/SiteScreenshot.png)
+![screenshot](images/siteCloneOldApple.png)
 
 In this task we were required to create a clone of old Apple.com's home page using the best practices of HTML AND CSS with GitHub process flow.
 
@@ -12,7 +12,7 @@ In this task we were required to create a clone of old Apple.com's home page usi
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Prabhakarzx/PrabhakarAndAlex-Old-Apple.com-Clone/460c9b88dcf0675cefea6bb624e76ced6fe7a618/Index.html)
+[Live Demo Link](https://rawcdn.githack.com/Prabhakarzx/PrabhakarAndAlex-Old-Apple.com-Clone/58f31b46f5a16dfc8c0956462d6c8a71ab47af62/Index.html)
 
 
 ## Authors
