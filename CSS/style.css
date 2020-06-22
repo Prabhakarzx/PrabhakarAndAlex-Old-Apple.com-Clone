@@ -8,7 +8,9 @@ body {
     flex-direction: column;
     align-items: center;
   }
-
+main{
+  max-width: 1440px;
+}
 
 span {
   display: block;
@@ -115,8 +117,8 @@ footer {
   display: flex;
   align-items: baseline;
   margin: 0 auto;
-  width: 100%;
-  transform: scale(0.8);
+  width: 1300px;
+    transform: scale(0.8);
   justify-content: space-evenly;
   font-size: 13px;
   padding-top: 20px;
@@ -174,7 +176,7 @@ footer a {
   display: flex;
   position: relative;
   width: 100%;
-  max-width: 1445px;
+  max-width: 1440px;
   border: #fff;
   border-width: 10px;
   background-size: cover;
@@ -182,10 +184,9 @@ footer a {
 
 .lowerImage {
   margin-left: 1.5px;
-  padding: 5px;
-  width: 364px;
+  width: 357px;
   background-size: cover;
-  height: 190px;
+  height: 200px;
   display: block;
   cursor: pointer;
   z-index: 1;
