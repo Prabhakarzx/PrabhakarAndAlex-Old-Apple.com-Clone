@@ -12,7 +12,7 @@ In this task we were required to create a clone of old Apple.com's home page usi
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Prabhakarzx/PrabhakarAndAlex-Old-Apple.com-Clone/58f31b46f5a16dfc8c0956462d6c8a71ab47af62/Index.html)
+[Live Demo Link](https://rawcdn.githack.com/Prabhakarzx/PrabhakarAndAlex-Old-Apple.com-Clone/ed39366267e722493dfdf394a7964412b994baad/Index.html)
 
 
 ## Authors
