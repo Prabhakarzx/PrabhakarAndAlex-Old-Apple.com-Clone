@@ -3,13 +3,14 @@ div {
 }
 
 body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-  }
-main{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+main {
   max-width: 1440px;
 }
 
@@ -23,7 +24,7 @@ span {
   background-repeat: no-repeat;
   width: 100%;
   height: 570px;
-  background-size: cover; 
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,7 +81,6 @@ h5 {
   font-size: 20px;
 }
 
-
 .headerText {
   display: flex;
   flex-direction: column;
@@ -119,7 +119,7 @@ footer {
   align-items: baseline;
   margin: 0 auto;
   width: 1300px;
-    transform: scale(0.8);
+  transform: scale(0.8);
   justify-content: space-evenly;
   font-size: 13px;
   padding-top: 20px;
@@ -131,16 +131,16 @@ footer a {
   color: #08c;
 }
 
+.headerText a {
+  color: white;
+  text-decoration: none;
+}
+
 .header li a {
   color: white;
   font-size: 16px;
   text-decoration: none;
   text-shadow: 0 -1px black;
-}
-
-.headerText a {
-  color: white;
-  text-decoration: none;
 }
 
 .topHeader {
@@ -238,11 +238,9 @@ footer a {
 
 .header li:not(.searchLi):hover {
   background:
-    linear-gradient(
-      rgb(97, 96, 96),
+    linear-gradient(rgb(97, 96, 96),
       rgb(51, 50, 50),
-      rgb(49, 49, 49)
-    );
+      rgb(49, 49, 49));
 }
 
 footer a:hover {
